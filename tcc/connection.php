@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "batman";
+$username = "hitesh";
+$password = "sofat";
 $dbname = "librehatti";
 
 // Create connection
