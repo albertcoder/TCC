@@ -9,6 +9,7 @@
 							FROM `catalog_category` where parent_id is NULL";
 							$categories = $con->query($sql);
                             $count =0;
+                            echo "<ul id='list'>"; 
                             while($row = $categories->fetch_assoc()){
                             echo "<li value='".$row['name']."' ><a href='#'>".$row['name']."</a></li>";
                             echo "<input type='hidden' value='".$row['name']."' id='".$count."'>";

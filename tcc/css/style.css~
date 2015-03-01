@@ -14,7 +14,8 @@
 
 #search{
 float:right;
-position:'absolute';
+
+z-index:10000;
 }
 	body {
 		background: #fff;
@@ -698,6 +699,7 @@ position:'absolute';
 		position: absolute;
 		right: 3em;
 		top: 0;
+        margin-right:15%;
 		height: 3em;
 		line-height: 3em;
 	}
