@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+@charset 'UTF-8a;
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900');
 @import url('font-awesome.min.css');
 
@@ -12,6 +12,11 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+#search{
+float:right;
+
+z-index:10000;
+}
 	body {
 		background: #fff;
 	}
@@ -509,7 +514,7 @@
 			}
 			
 				.main.style1 h2 {
-					font-size: 4.25em;
+					font-size: 2.25em;
 					line-height: 1em;
 					letter-spacing: -4px;
 				}
@@ -665,7 +670,7 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255,255,255,0.95);
+		background: rgba(255,255,255,1);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
@@ -686,13 +691,15 @@
 	}
 	
 		#logo a {
+			color: #000;
 			font-size: 1.25em;
 		}
 	
 	#nav {
 		position: absolute;
-		right: 0.5em;
+		right: 3em;
 		top: 0;
+        margin-right:15%;
 		height: 3em;
 		line-height: 3em;
 	}
@@ -703,7 +710,7 @@
 
 			#nav ul li {
 				display: inline-block;
-				margin-left: 0.5em;
+				margin-left: -0.5em;
 				font-size: 0.9em;
 			}
 			
@@ -718,106 +725,22 @@
 				}
 
 /*********************************************************************************/
-/* Intro                                                                         */
-/*********************************************************************************/
-
-	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
-	//	background-color: rgba(0,0,0,0.87);
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-
-/*********************************************************************************/
-/* Services                                                                      */
-/*********************************************************************************/
-
-	#services {
-		background-size: cover;
-		background-image: linear-gradient(to bottom, rgba(141, 218, 186, 1) 0%, #6B9B6C 100%);
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-/**********************************************************************************/
-/* HOME                                                                     */
-/*********************************************************************************/
-
-	#home {
-		background-size: cover;
-		background: linear-gradient(to bottom, rgba(158, 239, 206, 1) 0%, rgba(107, 155, 108, 1) 100%);
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-/*********************************************************************************/
 /* Testing                                                                       */
 /*********************************************************************************/
 
-	#testing {
+	#testing, #survey, #training, #design {
 		background: url('images/overlay.png'), url('../images/patt.png');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/*********************************************************************************/
-/* Survey                                                                     */
-/*********************************************************************************/
-
-	#survey {
-		background-size: cover;
-		background: linear-gradient(to bottom, rgba(158, 239, 206, 1) 0%, rgba(107, 155, 108, 1) 100%);
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-
-/*********************************************************************************/
-/* Training                                                                           */
-/*********************************************************************************/
-
-	#training {
-		background: url('images/overlay.png'), url('../images/patt.png');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/*********************************************************************************/
-/* Design                                                                           */
-/*********************************************************************************/
-
-	#design {
-		background-size: cover;
-		background: linear-gradient(to bottom, rgba(158, 239, 206, 1) 0%, rgba(107, 155, 108, 1) 100%);
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-
-	}
 
 /*********************************************************************************/
 /* Other                                                                           */
 /*********************************************************************************/
 
-	#other {
-		background: url('images/overlay.png'), url('../images/patt.png');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-	
-/*********************************************************************************/
-/* GEO                                                                           */
-/*********************************************************************************/
-
-	#geo {
+	#other, #env, #contact, #geo, #services {
 		background-size: cover;
 		background: linear-gradient(to bottom, rgba(158, 239, 206, 1) 0%, rgba(107, 155, 108, 1) 100%);
 		background-attachment: fixed, fixed;
@@ -825,30 +748,16 @@
 		background-repeat: no-repeat, no-repeat;
 
 	}
-
 	
-/*********************************************************************************/
-/* Environment                                                                           */
-/*********************************************************************************/
-
-	#env {
-		background: url('images/overlay.png'), url('../images/patt.png');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
 /*********************************************************************************/
 /* Consultants                                                                           */
 /*********************************************************************************/
 
 	#consultants {
-		background-size: cover;
-		background: linear-gradient(to bottom, rgba(158, 239, 206, 1) 0%, rgba(107, 155, 108, 1) 100%);
+	background: url('images/overlay.png'), url('../images/patt.png');
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-
+		background-position: top left, center center;
 	}
 
 
@@ -958,7 +867,7 @@
 	
 	#footer {
 		position: relative;
-		height: 9em;
+		height: 6em;
 		line-height: 5em;
 		margin: 0;
 		background: #000;
