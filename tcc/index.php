@@ -1,4 +1,70 @@
-<?php include('header.php'); ?>
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Testing and Consultancy Cell</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+                        <link rel="stylesheet" href="css/services.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-normal.css" />
+			<link rel="stylesheet" href="css/drop.css" />
+		
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+<style>
+a{
+text-decoration:none;
+</style>
+
+<script type="text/javascript">
+    function myhref(web){
+      window.location.href = web;}
+</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header class="drop" id="header">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="#services">TCC</a></h1>
+			<div class="drop">	
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+        <li>
+            <a href="#services">Services</a>
+            <ul>
+                <li><a href="#survey">Surveying</a></li>
+                <li><a href="#geo">Geotech</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#env">Environment</a></li>
+                <li><a href="#other">Other</a></li>
+            </ul>
+        </li>
+        <li><a href="files/tcc_brochure.pdf">Brochure</a></li>
+        <li><a href="#consultants">Consultants</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+						</ul>
+					</nav>
+			</div>
+			</header>
+
+
+
 		<!-- Services -->
 			<section id="services" style="padding-bottom:0% !important" class="main style1 dark fullscreen">
 <h2 style="text-align:center">Testing and Consultancy Cell </h2>
@@ -294,5 +360,27 @@
 
 
 		<!-- Footer -->
-<?php include('footer.php'); ?>
+			<footer id="footer">
 
+				<!-- Icons -->
+					<ul class="actions" style="line-height:3em">
+						<li><a href="https://twitter.com/tccgndec" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/pages/Testing-and-Consultancy-Cell-GNDEC-Ludhiana/497681330318981" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://plus.google.com/u/0/117256570032896355648" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+					</ul> <div class="rights" style="float:left; margin-top:30px;">© 2014 Testing & Consultancy Cell. All rights reserved.</div>
+
+				<!-- Menu -->
+					<ul class="menu" style="display:inline">
+                                                
+                                                <li>Email: tcc@gndec.ac.in </li>
+                                                <li>Contact: +91 9855225007</li> 	
+                                       </ul>
+                                       
+			
+			</footer>
+
+	</body>
+</html>
