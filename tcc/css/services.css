@@ -2,7 +2,7 @@
 z-index:-1000;
  width: 150px;
  height: 150px;
- background-image: url('../images/survey.JPG');
+ background-image: url('../images/survey.png');
  background-size: cover;
  display: block;
  position:relative;
@@ -44,7 +44,7 @@ z-index:-1000;
  .image4{
  width: 150px;
  height: 150px;
- background-image: url('../images/testing.JPG');
+ background-image: url('../images/testing.png');
  background-size: cover;
  display: block;
  position:relative;
